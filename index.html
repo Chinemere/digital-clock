@@ -19,7 +19,7 @@
     <title>Digital clock</title>
 </head>
 
-<body>
+<body onload="days()">
     <div class="main-container">
         <div class="row">
             <div class="both-containers">
@@ -36,6 +36,15 @@
                 </div>
 
                 <div class="shadow"></div>
+                <div class="today row ">
+
+                    <marquee style="background-color: white; color:white;  " class="card-panel col s12"
+                        behavior="scroll" direction="left">
+                        <h3 class="" id="today" onload="days()"> </h3>
+                    </marquee>
+
+
+                </div>
 
             </div>
         </div>
@@ -46,8 +55,7 @@
     <script src="app.js"></script>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-
-
+    <script src="moment.js"></script>
 </body>
 
 </html>
