@@ -3,9 +3,10 @@ window.onload = function digitalTime() {
     var date = new Date();
     var hour = date.getHours();
     var minute = date.getMinutes();
+    var zero1 = [0];
     // document.getElementById('figuremain').innerHTML = "" + hour + ":" + minute;
     if (minute <= 9 & hour <= 9) {
-        document.getElementById('figuremain').innerHTML = "" + "0" + hour + ":" + "0" + minute;
+        document.getElementById('figuremain').innerHTML = "" + "0" + hour + ":" + zero1[0] + minute;
 
     } else if (minute > 9 & hour > 9) {
         // document.getElementById('figuremain').innerHTML = "" + hour + ":" + "0" + minute;
@@ -52,24 +53,6 @@ days()
 
 
 
-// function nn() {
-//     var date = new Date(new Date().getFullYear(), new Date().getMonth(), new Date().getDate());
-//     var day = date.getDay();
-//     var month = date.getMonth();
-//     var year = date.getFullYear();
-//     console.log("Today Is " + " " + date)
-// }
-// nn()
-// days()
-// new Date(myDate.getFullYear(), myDate.getMonth(), myDate.getDate());
 
-// var NowDate = new Date();
-// var months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-// var sDay = NowDate.getDate();
-// var sMonth = NowDate.getMonth() + 1;
-// var sYear = NowDate.getFullYear();
-// var eDisplayDate = document.getElementById('today');
-// eDisplayDate.innerHTML = sYear + '-' + sMonth + '-' + sDay;
-// console.log(eDisplayDate)
 
 
