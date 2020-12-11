@@ -3,10 +3,10 @@ window.onload = function digitalTime() {
     var date = new Date();
     var hour = date.getHours();
     var minute = date.getMinutes();
-    var zero1 = [0];
+    var zero1 = [1];
     // document.getElementById('figuremain').innerHTML = "" + hour + ":" + minute;
     if (minute <= 9 & hour <= 9) {
-        document.getElementById('figuremain').innerHTML = "" + "0" + hour + ":" + zero1[0] + minute;
+        document.getElementById('figuremain').innerHTML = "" + "0" + hour + ":" + "0" + minute;
 
     } else if (minute > 9 & hour > 9) {
         // document.getElementById('figuremain').innerHTML = "" + hour + ":" + "0" + minute;
