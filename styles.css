@@ -49,11 +49,11 @@ margin-top: -5px;
     background-color: #184f539d;
     -ms-transform: skewX(9deg); /* IE 9 */
   transform: skewX(9deg); /* Standard syntax */
-  margin-top: 210px;
+  margin-top: 20px;
   margin-right: 0px;
   position: absolute;
   z-index:-1;
-  margin-bottom: 120px;
+  margin-bottom: 50px;
 }
 
 .today{
@@ -84,7 +84,7 @@ animation-name: example;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 150px; 
+  margin-top: 100px; 
 }
 /* @media only screen and (max-width: 425px){
     .both-containers{
